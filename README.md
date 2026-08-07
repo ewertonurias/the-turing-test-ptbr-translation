@@ -2,6 +2,8 @@
 
 Tradução não oficial feita por fã para **The Turing Test**, com o objetivo de disponibilizar os textos do jogo em **Português Brasileiro**.
 
+*Nota: Apenas o menu principal não está traduzido, mas o restante do jogo está 100% traduzido.
+
 ## Instalação
 
 1. Baixe o arquivo `the-turing-test-ptbr-v1.0.zip`.
