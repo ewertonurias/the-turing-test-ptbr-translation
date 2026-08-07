@@ -1,54 +1,22 @@
-# Tradução PT-BR - The Turing Test
+# The Turing Test — Tradução PT-BR
 
-Tradução para Português do Brasil (PT-BR) das legendas/diálogos do jogo **The Turing Test**.
+Tradução não oficial feita por fã para **The Turing Test**, com o objetivo de disponibilizar os textos do jogo em **Português Brasileiro**.
 
----
+## Instalação
 
-## 🎯 Status do Projeto
+1. Baixe o arquivo `the-turing-test-ptbr-v1.0.zip`.
+2. Extraia o conteúdo.
+3. Copie as pastas e arquivos extraídos para a pasta de instalação de **The Turing Test**.
+4. Confirme a substituição dos arquivos quando solicitado.
 
-- [x] **`subtitles.csv` (Legendas e Diálogos):** 100% Traduzido, revisado e testado.
-- [x] **`credits.csv` (Créditos):** 100% Traduzido, revisado e testado.
-- [ ] **`translations.csv` (Menu / Interface):** Incluído no repositório para testes, mas **não funcional** no jogo final até o momento.
+> Recomenda-se fazer backup dos arquivos originais antes da instalação.
 
----
+## Créditos
 
-## 📂 Diretório de Instalação
+Tradução produzida com auxílio de **Inteligência Artificial**, utilizando **OpenAI Codex/ChatGPT**, com revisão e testes realizados para melhorar fidelidade, naturalidade e consistência dos diálogos em Português Brasileiro.
 
-Para aplicar a tradução, os arquivos `.csv` extraídos devem ser copiados para a pasta **`CSV`** do jogo, dependendo do seu sistema operacional:
+## Aviso
 
-### 🐧 Linux (Nativo / Proton / Steam Deck)
-```
-~/.steam/root/steamapps/common/The Turing Test/TheTuringTest/TextContent/CSV/
-```
-(Nota: O caminho pode variar dependendo da sua biblioteca Steam ou distribuição, como no Bazzite/Flatpak).
+Este é um projeto de fã, sem vínculo oficial com os desenvolvedores ou publicadores de **The Turing Test**.
 
-### 🪟 Windows
-```
-C:\Program Files (x86)\Steam\steamapps\common\The Turing Test\TheTuringTest\TextContent/CSV/
-```
-**Dica no Windows/Linux:** Você pode encontrar a pasta rapidamente abrindo a Steam, clicando com o botão direito em The Turing Test > Gerenciar > Navegar pelos arquivos locais e depois acessando a pasta TheTuringTest/TextContent/CSV/.
-
-## ⚙️ Instruções de Instalação
-1. Acesse a aba Releases na lateral direita deste repositório e baixe o arquivo .zip mais recente.
-
-2. Extraia o conteúdo do arquivo comprimido.
-
-3. Copie os arquivos .csv e cole dentro da pasta TextContent/CSV/ do jogo, substituindo os arquivos originais (recomenda-se fazer um backup dos originais antes).
-
-4. Inicie o jogo e certifique-se de que as Legendas estejam ativadas nas configurações de vídeo.
-
-## 🔍 Processo de Tradução e Qualidade
-A tradução foi gerada com auxílio de Inteligência Artificial e passou por uma etapa de refinamento estruturado:
-
-- **Validação Estrutural:** Checagem linha a linha para garantir que as chaves de texto e o formato dos arquivos .csv fossem mantidos intactos.
-
-- **Adaptação Contextual:** Polimento nos diálogos para remover construções ríspidas ou traduções literais, buscando manter a fluidez e o tom natural das conversas em português.
-
-## 🛠️ Notas Técnicas e Limitações (Menu Principal)
-Durante os testes práticos no jogo, a substituição do arquivo translations.csv não alterou os elementos textuais da interface do menu principal (como Settings, New Game, etc.), que continuam sendo exibidos em inglês.
-
-- **Comportamento Observado:** O executável do jogo não aplica as alterações feitas no translations.csv para a interface principal em runtime.
-
-- **Hipótese Técnica:** É possível que as strings do menu estejam contidas ou sobrescritas diretamente dentro dos assets empacotados da Unreal Engine 4 (.uasset / .pak), exigindo extração e reempacotamento via ferramentas de modding avançadas (como FModel, UAssetGUI ou UABE).
-
-🤝 **Contribuições:** Se você possui experiência em modding de Unreal Engine 4 e souber como contornar essa limitação para traduzir a UI, sinta-se à vontade para abrir uma Issue ou submeter um Pull Request.
+Todos os direitos sobre o jogo pertencem aos seus respectivos proprietários.
